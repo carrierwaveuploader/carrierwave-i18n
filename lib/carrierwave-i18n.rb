@@ -1,4 +1,1 @@
-module CarrierwaveI18n
-  class Engine < ::Rails::Engine
-  end
-end
+require "carrierwave-i18n/railtie" if defined?(Rails)
