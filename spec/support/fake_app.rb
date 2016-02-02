@@ -1,4 +1,4 @@
-module CarrierwaveI18n
+module CarrierWaveI18n
   module Spec
     module FakeApp
       #

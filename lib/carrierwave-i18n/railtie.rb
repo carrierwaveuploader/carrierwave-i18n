@@ -1,9 +1,9 @@
 require "rails"
 
-module CarrierwaveI18n
+module CarrierWaveI18n
   class Railtie < ::Rails::Railtie
     initializer "carrierwave-i18n" do |app|
-      CarrierwaveI18n::Railtie.instance_eval do
+      CarrierWaveI18n::Railtie.instance_eval do
         pattern = pattern_from app.config.i18n.available_locales
 
         add("rails/locales/#{pattern}.yml")

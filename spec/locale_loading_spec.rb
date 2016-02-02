@@ -2,7 +2,7 @@ require "spec_helper"
 
 describe "Locale loading" do
   let(:app) do
-    CarrierwaveI18n::Spec::FakeApp
+    CarrierWaveI18n::Spec::FakeApp
   end
 
   let(:translate_stuff) do
