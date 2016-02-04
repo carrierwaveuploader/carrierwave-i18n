@@ -1,5 +1,7 @@
-require "bundler"
+$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
+$LOAD_PATH.unshift(File.dirname(__FILE__))
 
-Bundler.require
+require "rspec"
+require "i18n-spec"
 
-Dir[File.expand_path("../support/**/*.rb", __FILE__)].each {|f| require f }
+Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each {|f| require f}
