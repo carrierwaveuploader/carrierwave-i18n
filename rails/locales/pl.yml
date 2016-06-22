@@ -8,5 +8,5 @@ pl:
       extension_blacklist_error: "Nie można wgrać pliku o rozszerzeniu %{extension}, zakazane typy plików: %{prohibited_types}"
       rmagick_processing_error: "Nie udało się przetworzyć pliku przy pomocy rmagick, może to nie jest obrazek? Oryginalna treść błędu: %{e}"
       mini_magick_processing_error: "Nie udało się przetworzyć pliku przy pomocy MiniMagick, może to nie jest obrazek? Oryginalna treść błędu: %{e}"
-      min_size_error: "Rozmiar pliku powinna być większa niż %{min_size}"
-      max_size_error: "Rozmiar pliku powinna być mniejsza niż %{max_size}"
+      min_size_error: "Rozmiar pliku powinien być większy niż %{min_size}"
+      max_size_error: "Rozmiar pliku powinien być mniejszy niż %{max_size}"
