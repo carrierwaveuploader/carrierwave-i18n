@@ -1,0 +1,14 @@
+ro:
+  errors:
+    messages:
+      carrierwave_processing_error: eroare de procesare
+      carrierwave_integrity_error: nu este un tip de fișier permis
+      carrierwave_download_error: nu a putut fi descărcat
+      extension_whitelist_error: "Nu este permisă încarcarea fișierelor cu extensia '%{extension}', tipuri permise: '%{allowed_types}'"
+      extension_blacklist_error: "Nu este permisă încarcarea fișierelor cu extensia '%{extension}', tipuri nepermise: '%{prohibited_types}'"
+      content_type_whitelist_error: "Nu este permisă încarcarea fișierelor de tipul '%{content_type}'"
+      content_type_blacklist_error: "Nu este permisă încarcarea fișierelor de tipul '%{content_type}'"
+      rmagick_processing_error: "Eroare de procesare cu rmagick, probabil fișierul nu este o imagine?"
+      mini_magick_processing_error: "Eroare de procesare cu MiniMagick, probabil fișierul nu este o imagine? Eroare originală: '%{e}'"
+      min_size_error: "Fișierul trebuie să fie mai mare decât %{min_size}"
+      max_size_error: "Fișierul trebuie să fie mai mic decât %{max_size}"
