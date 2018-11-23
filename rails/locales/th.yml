@@ -1,0 +1,14 @@
+th:
+  errors:
+    messages:
+      carrierwave_processing_error: ประมวลผลผิดพลาด
+      carrierwave_integrity_error: ประเภทของไฟล์ไม่อนุญาต
+      carrierwave_download_error: ไม่สามารถดาวน์โหลดได้
+      extension_whitelist_error: "ไม่อนุญาติให้อัพโหลดไฟล์นามสกุล %{extension}, อนุญาตไฟล์ประเภท: %{allowed_types}"
+      extension_blacklist_error: "ไม่อนุญาติให้อัพโหลดไฟล์นามสกุล %{extension}, ไม่อนุญาตไฟล์ประเภท: %{prohibited_types}"
+      content_type_whitelist_error: "ไม่อนุญาติให้อัพโหลดไฟล์ประเภท %{content_type}"
+      content_type_blacklist_error: "ไม่อนุญาติให้อัพโหลดไฟล์ประเภท %{content_type}"
+      rmagick_processing_error: "จัดการด้วย rmagick ผิดพลาด, ไฟล์อาจจะไม่ใช่รูปภาพ?"
+      mini_magick_processing_error: "จัดการด้วย MiniMagick ผิดพลาด, ไฟล์อาจจะไม่ใช่รูปภาพ? ความผิดพลาดของต้นฉบับ: %{e}"
+      min_size_error: "ขนาดของไฟล์ต้องมากกว่า %{min_size}"
+      max_size_error: "ขนาดของไฟล์ต้องน้อยกว่า %{max_size}"
