@@ -1,0 +1,14 @@
+fa:
+  errors:
+    messages:
+      carrierwave_processing_error: پردازش انجام نشد
+      carrierwave_integrity_error: این نوع فایل مجاز نیست
+      carrierwave_download_error: نمی‌توان دانلود کرد
+      extension_whitelist_error: "شما مجاز به آپلود فایل با پسوند %{extension} نیستید، نوع‌های مجاز: %{allowed_types}"
+      extension_blacklist_error: "شما مجاز به آپلود فایل با پسوند %{extension} نیستید، نوع‌های ممنوع: %{prohibited_types}"
+      content_type_whitelist_error: "شما مجاز به آپلود فایل %{content_type} نیستید"
+      content_type_blacklist_error: "شما مجاز به آپلود فایل %{content_type} نیستید"
+      rmagick_processing_error: "نتوانست با rmagick دستکاری شود، شاید این یک تصویر نیست؟"
+      mini_magick_processing_error: "نتوانست با MiniMagick دستکاری شود، شاید این یک تصویر نیست؟ خطای اصلی: %{e}"
+      min_size_error: "اندازه فایل باید بیشتر از %{min_size} باشد"
+      max_size_error: "اندازه فایل باید کمتر از %{max_size} باشد"
