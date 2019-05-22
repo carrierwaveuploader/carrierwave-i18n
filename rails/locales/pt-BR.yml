@@ -6,7 +6,7 @@ pt-BR:
       carrierwave_download_error: não pôde ser baixado
       extension_whitelist_error: "Não é permitido o envio de arquivos %{extension}, tipos permitidos: %{allowed_types}"
       extension_blacklist_error: "Não é permitido o envio de arquivos %{extension}, tipos proibidos: %{prohibited_types}"
-      content_type_whitelist_error: "Não é permitido o envio de arquivos %{content_type}"
+      content_type_whitelist_error: "Não é permitido o envio de arquivos %{content_type}, tipos permitidos: %{allowed_types}"
       content_type_blacklist_error: "Não é permitido o envio de arquivos %{content_type}"
       rmagick_processing_error: "Falha ao manipular com RMagick, talvez arquivo não seja uma imagem? Erro original: %{e}"
       mini_magick_processing_error: "Falha ao manipular com MiniMagick, talvez arquivo não seja uma imagem? Erro original: %{e}"
