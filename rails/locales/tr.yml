@@ -4,11 +4,11 @@ tr:
       carrierwave_processing_error: işlenmesi sırasında hata oluştu
       carrierwave_integrity_error: izin verilebilir bir dosya türü değil
       carrierwave_download_error: indirilemedi
-      extension_whitelist_error: "%{extension} uzantılı dosyaları yükleme izniniz yok, izin verilen uzantılar: %{allowed_types}"
-      extension_blacklist_error: "%{extension} uzantılı dosyaları yükleme izniniz yok, izin verilmeyen uzantılar: %{prohibited_types}"
+      extension_whitelist_error: "için %{extension} uzantılı dosyaları yükleme izniniz yok, izin verilen uzantılar: %{allowed_types}"
+      extension_blacklist_error: "için %{extension} uzantılı dosyaları yükleme izniniz yok, izin verilmeyen uzantılar: %{prohibited_types}"
       content_type_whitelist_error: "%{content_type} uzantılı dosyaları yükleme izniniz yok"
       content_type_blacklist_error: "%{content_type} uzantılı dosyaları yükleme izniniz yok"
       rmagick_processing_error: "Resim rmagick ile düzenlenemedi, belki de resim değildir? Orjinal Hata: %{e}"
-      mini_magick_processing_error: "Resim MiniMagick ile düzenlenemedi, belki de resim değildir? Orjinal Hata: %{e}"
-      min_size_error: "Dosya boyutu daha büyük olmalıdır %{min_size}"
-      max_size_error: "Dosya boyutu daha az olmalıdır %{max_size}"
+      mini_magick_processing_error: "MiniMagick ile düzenlenemedi, belki de resim değildir? Orjinal Hata: %{e}"
+      min_size_error: "dosya boyutu %{min_size}'dan daha büyük olmalıdır"
+      max_size_error: "dosya boyutu %{max_size}'dan daha az olmalıdır"
