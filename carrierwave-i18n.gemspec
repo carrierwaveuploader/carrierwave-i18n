@@ -16,6 +16,8 @@ Gem::Specification.new do |spec|
   spec.files         = Dir["{lib,rails}/**/*", "*.{md,txt}"]
   spec.require_paths = ["lib"]
 
+  spec.add_runtime_dependency('carrierwave', '>= 3.0.0', '< 4')
+
   spec.add_development_dependency "bundler"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "i18n-spec", "~> 0.6.0"

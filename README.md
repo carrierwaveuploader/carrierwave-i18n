@@ -7,7 +7,8 @@ Provides additional locales for CarrierWave, the classier solution for file uplo
 Add the following line to your `Gemfile`:
 
 ```ruby
-gem 'carrierwave-i18n'
+gem 'carrierwave-i18n', '~> 3.0' # For carrierwave 3
+gem 'carrierwave-i18n', '< 3'    # For carrierwave 2 and lower
 ```
 
 And then execute:
