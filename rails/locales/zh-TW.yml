@@ -1,16 +1,16 @@
 zh-TW:
   errors:
     messages:
-      carrierwave_processing_error: 處理錯誤
-      carrierwave_integrity_error: 文件類型錯誤
-      carrierwave_download_error: 下載錯誤
-      extension_allowlist_error: "不可上傳 %{extension} 文件，可上傳文件類型為：%{allowed_types}"
-      extension_denylist_error: "不可上傳 %{extension} 文件，不可上傳文件類型為：%{prohibited_types}"
-      content_type_allowlist_error: "不可上傳 %{content_type} 文件"
-      content_type_denylist_error: "不可上傳 %{content_type} 文件"
+      carrierwave_processing_error: "處理失敗"
+      carrierwave_integrity_error: "不是允許的檔案類型"
+      carrierwave_download_error: "無法下載"
+      extension_allowlist_error: "您無法上傳 %{extension} 檔案，允許的檔案類型為：%{allowed_types}"
+      extension_denylist_error: "您無法上傳 %{extension} 檔案，禁止的檔案類型為：%{prohibited_types}"
+      content_type_allowlist_error: "您無法上傳 %{content_type} 檔案，允許的檔案類型為：%{allowed_types}"
+      content_type_denylist_error: "您無法上傳 %{content_type} 檔案"
       processing_error: "處理失敗，請確保上傳的檔案為有效的圖像檔案。"
-      min_size_error: "文件大小應大於 %{min_size}"
-      max_size_error: "文件大小應小於 %{max_size}"
+      min_size_error: "檔案大小應大於 %{min_size}"
+      max_size_error: "檔案大小應小於 %{max_size}"
       min_width_error: "圖片寬度應大於 %{min_width}px"
       max_width_error: "圖片寬度應小於 %{max_width}px"
       min_height_error: "圖片高度應大於 %{min_height}px"
