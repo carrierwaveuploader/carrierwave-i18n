@@ -11,3 +11,7 @@ zh-CN:
       processing_error: "处理失败，请确保上传的文件是有效的图像文件。"
       min_size_error: "文件大小应大于 %{min_size}"
       max_size_error: "文件的大小应小于 %{max_size}"
+      min_width_error: "图片宽度应大于 %{min_width}px"
+      max_width_error: "图片宽度应小于 %{max_width}px"
+      min_height_error: "图片高度应大于 %{min_height}px"
+      max_height_error: "图片高度应小于 %{max_height}px"

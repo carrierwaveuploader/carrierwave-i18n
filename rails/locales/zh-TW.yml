@@ -11,3 +11,7 @@ zh-TW:
       processing_error: "處理失敗，請確保上傳的檔案為有效的圖像檔案。"
       min_size_error: "文件大小應大於 %{min_size}"
       max_size_error: "文件大小應小於 %{max_size}"
+      min_width_error: "圖片寬度應大於 %{min_width}px"
+      max_width_error: "圖片寬度應小於 %{max_width}px"
+      min_height_error: "圖片高度應大於 %{min_height}px"
+      max_height_error: "圖片高度應小於 %{max_height}px"

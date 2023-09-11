@@ -11,3 +11,7 @@ de:
       processing_error: "Verarbeitung fehlgeschlagen, vielleicht ist es kein Bild?"
       min_size_error: "Die Dateigröße muss größer als %{min_size} sein"
       max_size_error: "Die Dateigröße muss kleiner als %{max_size} sein"
+      min_width_error: "Das Bild sollte breiter als %{min_width} Pixel sein"
+      max_width_error: "Das Bild sollte nicht breiter als %{max_width} Pixel sein"
+      min_height_error: "Das Bild sollte höher als %{min_height} Pixel sein"
+      max_height_error: "Das Bild sollte nicht höher als %{max_height} Pixel sein"
