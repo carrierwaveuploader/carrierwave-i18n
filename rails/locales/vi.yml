@@ -8,7 +8,6 @@ vi:
       extension_denylist_error: "Bạn không thể tải file có định dạng %{extension}, không cho phép tải file có định dạng: %{prohibited_types}"
       content_type_allowlist_error: "Bạn không thể file có định dạng %{content_type}"
       content_type_denylist_error: "Bạn không thể file có định dạng %{content_type}"
-      rmagick_processing_error: "Không thể xử lý với rmagick, có thể file của bạn không phải hình ảnh?"
-      mini_magick_processing_error: "Không thể xử lý với MiniMagick, có thể file của bạn không phải hình ảnh? Lỗi gốc: %{e}"
+      processing_error: "Không thể xử lý, có thể file của bạn không phải hình ảnh?"
       min_size_error: "Kích thước file phải lớn hơn %{min_size}"
       max_size_error: "Kích thước file phải nhỏ hơn %{max_size}"

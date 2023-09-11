@@ -8,7 +8,6 @@ id:
       extension_denylist_error: "Dilarang mengupload tipe file %{extension}, tipe file yang dilarang: %{prohibited_types}"
       content_type_allowlist_error: "Anda dilarang mengupload file %{content_type}"
       content_type_denylist_error: "Anda dilarang mengupload file %{content_type}"
-      rmagick_processing_error: "Gagal memanipulasi dengan rmagick, mungkin file ini bukan gambar?"
-      mini_magick_processing_error: "Gagal memanipulasi citra menggunakan MiniMagick, mungkin bukan file gambar? Error semula: %{e}"
+      processing_error: "Gagal memanipulasi, mungkin file ini bukan gambar?"
       min_size_error: "Ukuran file harus lebih besar daripada %{min_size}"
       max_size_error: "Ukuran file harus kurang dari %{max_size}"

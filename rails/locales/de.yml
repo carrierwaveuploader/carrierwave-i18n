@@ -8,7 +8,6 @@ de:
       extension_denylist_error: "Dateityp %{extension} ist für den Upload nicht zulässig. Verbotene Dateitypen: %{prohibited_types}"
       content_type_allowlist_error: "Dateityp %{content_type} ist für den Upload nicht zulässig"
       content_type_denylist_error: "Dateityp %{content_type} ist für den Upload nicht zulässig"
-      rmagick_processing_error: "Verarbeitung mit rmagick fehlgeschlagen, vielleicht ist es kein Bild? Ursprünglicher Fehler: %{e}"
-      mini_magick_processing_error: "Verarbeitung mit MiniMagick fehlgeschlagen, vielleicht ist es kein Bild? Ursprünglicher Fehler: %{e}"
+      processing_error: "Verarbeitung fehlgeschlagen, vielleicht ist es kein Bild?"
       min_size_error: "Die Dateigröße muss größer als %{min_size} sein"
       max_size_error: "Die Dateigröße muss kleiner als %{max_size} sein"

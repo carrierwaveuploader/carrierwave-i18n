@@ -8,7 +8,6 @@ fr-CA:
       extension_denylist_error: "Vous n'êtes pas autorisé à uploader des fichiers %{extension}, types interdits: %{prohibited_types}"
       content_type_allowlist_error: "Vous n'êtes pas autorisé à uploader des fichiers %{content_type}"
       content_type_denylist_error: "Vous n'êtes pas autorisé à uploader des fichiers %{content_type}"
-      rmagick_processing_error: "La manipulation d'image avec rmagick a échoué. Peut-être que ce n'est pas une image? Erreur originale: %{e}"
-      mini_magick_processing_error: "La manipulation d'image avec MiniMagick a échoué. Peut-être que ce n'est pas une image? Erreur originale: %{e}"
+      processing_error: "La manipulation d'image a échoué. Peut-être que ce n'est pas une image?"
       min_size_error: "La taille du fichier doit être supérieure à %{min_size}"
       max_size_error: "La taille du fichier doit être inférieure à %{max_size}"

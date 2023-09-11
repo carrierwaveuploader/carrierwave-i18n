@@ -8,7 +8,6 @@ ro:
       extension_denylist_error: "Nu este permisă încarcarea fișierelor cu extensia '%{extension}', tipuri nepermise: '%{prohibited_types}'"
       content_type_allowlist_error: "Nu este permisă încarcarea fișierelor de tipul '%{content_type}'"
       content_type_denylist_error: "Nu este permisă încarcarea fișierelor de tipul '%{content_type}'"
-      rmagick_processing_error: "Eroare de procesare cu rmagick, probabil fișierul nu este o imagine?"
-      mini_magick_processing_error: "Eroare de procesare cu MiniMagick, probabil fișierul nu este o imagine? Eroare originală: '%{e}'"
+      processing_error: "Eroare de procesare, probabil fișierul nu este o imagine?"
       min_size_error: "Fișierul trebuie să fie mai mare decât %{min_size}"
       max_size_error: "Fișierul trebuie să fie mai mic decât %{max_size}"

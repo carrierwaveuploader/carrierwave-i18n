@@ -8,7 +8,6 @@ cs:
       extension_denylist_error: "Není možné nahrávat %{extension} soubory, zakázané typy: %{prohibited_types}"
       content_type_allowlist_error: "Není možné nahrávat %{content_type} soubory"
       content_type_denylist_error: "Není možné nahrávat %{content_type} soubory"
-      rmagick_processing_error: "Nepodařilo se upravit pomocí rmagick, možná se nejedná o obrázek? Hlášená Chyba: %{e}"
-      mini_magick_processing_error: "Nepodařilo se upravit pomocí MiniMagick, možná se nejedná o obrázek? Hlášená Chyba: %{e}"
+      processing_error: "Nepodařilo se upravit, možná se nejedná o obrázek?"
       min_size_error: "Velikost souboru by měla být větší než %{min_size}"
       max_size_error: "Velikost souboru by měla být nižší než %{max_size}"

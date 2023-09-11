@@ -8,7 +8,6 @@ it:
       extension_denylist_error: "Non puoi caricare file con estensione %{extension}, estensioni proibite: %{prohibited_types}"
       content_type_allowlist_error: "Non puoi caricare file di tipo %{content_type}"
       content_type_denylist_error: "Non puoi caricare file di tipo %{content_type}"
-      rmagick_processing_error: "Impossibile elaborare l'immagine con rmagick, sicuro sia un'immagine? Errore Originale: %{e}"
-      mini_magick_processing_error: "Impossibile elaborare l'immagine con MiniMagick, sicuro sia un'immagine? Errore Originale: %{e}"
+      processing_error: "Impossibile elaborare l'immagine, sicuro sia un'immagine?"
       min_size_error: "La dimensione del file dev'essere maggiore di %{min_size}"
       max_size_error: "La dimensione del file dev'essere minore di %{max_size}"

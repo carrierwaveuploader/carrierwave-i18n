@@ -8,7 +8,6 @@ tr:
       extension_denylist_error: "için %{extension} uzantılı dosyaları yükleme izniniz yok, izin verilmeyen uzantılar: %{prohibited_types}"
       content_type_allowlist_error: "%{content_type} uzantılı dosyaları yükleme izniniz yok"
       content_type_denylist_error: "%{content_type} uzantılı dosyaları yükleme izniniz yok"
-      rmagick_processing_error: "Resim rmagick ile düzenlenemedi, belki de resim değildir? Orijinal Hata: %{e}"
-      mini_magick_processing_error: "MiniMagick ile düzenlenemedi, belki de resim değildir? Orijinal Hata: %{e}"
+      processing_error: "Resim düzenlenemedi, belki de resim değildir?"
       min_size_error: "dosya boyutu %{min_size}'dan daha büyük olmalıdır"
       max_size_error: "dosya boyutu %{max_size}'dan daha az olmalıdır"

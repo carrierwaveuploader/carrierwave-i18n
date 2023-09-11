@@ -8,7 +8,6 @@ zh-TW:
       extension_denylist_error: "不可上傳 %{extension} 文件，不可上傳文件類型為：%{prohibited_types}"
       content_type_allowlist_error: "不可上傳 %{content_type} 文件"
       content_type_denylist_error: "不可上傳 %{content_type} 文件"
-      rmagick_processing_error: "rmagick 錯誤，也許上傳的的文件不是圖片？原錯誤：%{e}"
-      mini_magick_processing_error: "MiniMagick 錯誤，也許上傳的文件不是圖片？原錯誤：%{e}"
+      processing_error: "處理失敗，請確保上傳的檔案為有效的圖像檔案。"
       min_size_error: "文件大小應大於 %{min_size}"
       max_size_error: "文件大小應小於 %{max_size}"
