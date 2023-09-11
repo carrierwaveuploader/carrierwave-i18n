@@ -4,10 +4,10 @@ ja:
       carrierwave_processing_error: 処理できませんでした
       carrierwave_integrity_error: は許可されていないファイルタイプです
       carrierwave_download_error: はダウンロードできません
-      extension_whitelist_error: "%{extension}ファイルのアップロードは許可されていません。アップロードできるファイルタイプ: %{allowed_types}"
-      extension_blacklist_error: "%{extension}ファイルのアップロードは許可されていません。アップロードできないファイルタイプ: %{prohibited_types}"
-      content_type_whitelist_error: "%{content_type}ファイルのアップロードは許可されていません。アップロードできるファイルタイプ: %{allowed_types}"
-      content_type_blacklist_error: "%{content_type}ファイルのアップロードは許可されていません"
+      extension_allowlist_error: "%{extension}ファイルのアップロードは許可されていません。アップロードできるファイルタイプ: %{allowed_types}"
+      extension_denylist_error: "%{extension}ファイルのアップロードは許可されていません。アップロードできないファイルタイプ: %{prohibited_types}"
+      content_type_allowlist_error: "%{content_type}ファイルのアップロードは許可されていません。アップロードできるファイルタイプ: %{allowed_types}"
+      content_type_denylist_error: "%{content_type}ファイルのアップロードは許可されていません"
       rmagick_processing_error: "rmagickがファイルを処理できませんでした。画像を確認してください。エラーメッセージ: %{e}"
       mini_magick_processing_error: "MiniMagickがファイルを処理できませんでした。画像を確認してください。エラーメッセージ: %{e}"
       min_size_error: "を%{min_size}以上のサイズにしてください"

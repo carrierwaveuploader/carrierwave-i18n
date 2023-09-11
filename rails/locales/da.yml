@@ -4,10 +4,10 @@ da:
       carrierwave_processing_error: behandling fejlede
       carrierwave_integrity_error: er ikke en tilladt filtype
       carrierwave_download_error: kunne ikke downloades
-      extension_whitelist_error: "Det er ikke tilladt at uploade %{extension}-filer, tilladte filtyper: %{allowed_types}"
-      extension_blacklist_error: "Det er ikke tilladt at uploade %{extension}-filer, spærrede filtyper: %{prohibited_types}"
-      content_type_whitelist_error: "Du kan ikke uploade %{content_type}-filer"
-      content_type_blacklist_error: "Du kan ikke uploade %{content_type}-filer"
+      extension_allowlist_error: "Det er ikke tilladt at uploade %{extension}-filer, tilladte filtyper: %{allowed_types}"
+      extension_denylist_error: "Det er ikke tilladt at uploade %{extension}-filer, spærrede filtyper: %{prohibited_types}"
+      content_type_allowlist_error: "Du kan ikke uploade %{content_type}-filer"
+      content_type_denylist_error: "Du kan ikke uploade %{content_type}-filer"
       rmagick_processing_error: "Kunne ikke behandle med rmagick, måske er filen ikke et billede?"
       mini_magick_processing_error: "Kunne ikke behandle med MiniMagick, måske er filen ikke et billede? Original fejl: %{e}"
       min_size_error: "Filstørrelsen skal være mindst %{min_size}"

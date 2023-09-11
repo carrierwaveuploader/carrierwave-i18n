@@ -4,10 +4,10 @@ uk:
       carrierwave_processing_error: не вдалося обробити
       carrierwave_integrity_error: не дозволений тип файлу
       carrierwave_download_error: неможливо завантажити
-      extension_whitelist_error: "Не дозволено завантажувати %{extension} файли, дозволені типи: %{allowed_types}"
-      extension_blacklist_error: "Не дозволено завантажувати %{extension} файли, заборонені типи: %{prohibited_types}"
-      content_type_whitelist_error: "Не дозволено завантажувати %{content_type} файли"
-      content_type_blacklist_error: "Не дозволено завантажувати %{content_type} файли"
+      extension_allowlist_error: "Не дозволено завантажувати %{extension} файли, дозволені типи: %{allowed_types}"
+      extension_denylist_error: "Не дозволено завантажувати %{extension} файли, заборонені типи: %{prohibited_types}"
+      content_type_allowlist_error: "Не дозволено завантажувати %{content_type} файли"
+      content_type_denylist_error: "Не дозволено завантажувати %{content_type} файли"
       rmagick_processing_error: "Помилка взаємодії з RMagick, можливо це не зображення?"
       mini_magick_processing_error: "Помилка взаємодії з MiniMagick, можливо це не зображення? Оригінальний текст помилки: %{e}"
       min_size_error: "Розмір файлу повинен бути більшим ніж %{min_size}"

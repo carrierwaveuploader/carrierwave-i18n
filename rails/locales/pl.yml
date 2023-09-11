@@ -4,10 +4,10 @@ pl:
       carrierwave_processing_error: nie można przetworzyć
       carrierwave_integrity_error: niedozwolony typ pliku
       carrierwave_download_error: nie można pobrać pliku
-      extension_whitelist_error: "Nie można wgrać pliku o rozszerzeniu %{extension}, dozwolone typy plików: %{allowed_types}"
-      extension_blacklist_error: "Nie można wgrać pliku o rozszerzeniu %{extension}, zakazane typy plików: %{prohibited_types}"
-      content_type_whitelist_error: "Nie można wgrać pliku o rozszerzeniu %{content_type}"
-      content_type_blacklist_error: "Nie można wgrać pliku o rozszerzeniu %{content_type}"
+      extension_allowlist_error: "Nie można wgrać pliku o rozszerzeniu %{extension}, dozwolone typy plików: %{allowed_types}"
+      extension_denylist_error: "Nie można wgrać pliku o rozszerzeniu %{extension}, zakazane typy plików: %{prohibited_types}"
+      content_type_allowlist_error: "Nie można wgrać pliku o rozszerzeniu %{content_type}"
+      content_type_denylist_error: "Nie można wgrać pliku o rozszerzeniu %{content_type}"
       rmagick_processing_error: "Nie udało się przetworzyć pliku przy pomocy rmagick, może to nie jest obrazek? Oryginalna treść błędu: %{e}"
       mini_magick_processing_error: "Nie udało się przetworzyć pliku przy pomocy MiniMagick, może to nie jest obrazek? Oryginalna treść błędu: %{e}"
       min_size_error: "Rozmiar pliku powinien być większy niż %{min_size}"
