@@ -1,0 +1,13 @@
+errors:
+  messages:
+    carrierwave_processing_error: 오류가 나서 진행할 수 없습니다.
+    carrierwave_integrity_error: ": 허용된 타입이 아닙니다."
+    carrierwave_download_error: "다운로드 할 수 없습니다."
+    extension_whitelist_error: "다음 확장자 파일을 올릴 수 없습니다: %{extension}. 허용된 타입: %{allowed_types}"
+    extension_blacklist_error: "다음 확장자 파일을 올릴 수 없습니다: %{extension}. 제한된 타입: %{prohibited_types}"
+    content_type_whitelist_error: "다음 형식 파일을 올릴 수 없습니다: %{content_type}. 허용된 타입: %{allowed_types}"
+    content_type_blacklist_error: "다음 형식 파일을 올릴 수 없습니다: %{content_type}"
+    rmagick_processing_error: "rmagick으로 처리할 수 없습니다. 이미지 파일인가요?"
+    mini_magick_processing_error: "MiniMagick으로 처리할 수 없습니다. 이미지 파일인가요? 원본 에러 메시지: %{e}"
+    min_size_error: "파일 크기가 다음보다 커야 합니다: %{min_size}"
+    max_size_error: "파일 크기가 다음보다 작아야 합니다: %{max_size}"
