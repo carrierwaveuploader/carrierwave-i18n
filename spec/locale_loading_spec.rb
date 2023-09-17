@@ -26,10 +26,10 @@ describe "Locale loading" do
       expected_translations = <<-EOS.gsub(/^  */, "")
         In French: Impossible de redimensionner l'image.
         In Spanish: no pudo ser procesado
-        In Japanese: translation missing: ja.errors.messages.carrierwave_processing_error
+        In Japanese: Translation missing: ja.errors.messages.carrierwave_processing_error
       EOS
 
-      expect(translations).to eq(expected_translations)
+      expect(translations.gsub('translation missing', 'Translation missing')).to eq(expected_translations)
     end
   end
 
@@ -43,11 +43,11 @@ describe "Locale loading" do
     it "loads only this locale" do
       expected_translations = <<-EOS.gsub(/^  */, "")
         In French: Impossible de redimensionner l'image.
-        In Spanish: translation missing: es.errors.messages.carrierwave_processing_error
-        In Japanese: translation missing: ja.errors.messages.carrierwave_processing_error
+        In Spanish: Translation missing: es.errors.messages.carrierwave_processing_error
+        In Japanese: Translation missing: ja.errors.messages.carrierwave_processing_error
       EOS
 
-      expect(translations).to eq(expected_translations)
+      expect(translations.gsub('translation missing', 'Translation missing')).to eq(expected_translations)
     end
   end
 
