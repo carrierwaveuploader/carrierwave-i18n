@@ -8,6 +8,6 @@ ja:
       extension_denylist_error: "%{extension}ファイルのアップロードは許可されていません。アップロードできないファイルタイプ: %{prohibited_types}"
       content_type_allowlist_error: "%{content_type}ファイルのアップロードは許可されていません。アップロードできるファイルタイプ: %{allowed_types}"
       content_type_denylist_error: "%{content_type}ファイルのアップロードは許可されていません"
-      processing_error: "rmagickがファイルを処理できませんでした。画像を確認してください。" # rmagick part has to be removed
+      processing_error: "ファイルを処理できませんでした。画像を確認してください。"
       min_size_error: "を%{min_size}以上のサイズにしてください"
       max_size_error: "を%{max_size}以下のサイズにしてください"
