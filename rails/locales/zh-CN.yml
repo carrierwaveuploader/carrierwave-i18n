@@ -1,14 +1,17 @@
 zh-CN:
   errors:
     messages:
-      carrierwave_processing_error: 处理错误
-      carrierwave_integrity_error: 文件类型不正确
-      carrierwave_download_error: 下载错误
-      extension_whitelist_error: "不可上传 %{extension} 文件，可上传文件类型为：%{allowed_types}"
-      extension_blacklist_error: "不可上传 %{extension} 文件，不可上传文件类型为：%{prohibited_types}"
-      content_type_whitelist_error: "不可上传 %{content_type} 文件"
-      content_type_blacklist_error: "不可上传 %{content_type} 文件"
-      rmagick_processing_error: "rmagick 错误，也许上传的文件不是图片? 原错误：%{e}"
-      mini_magick_processing_error: "MiniMagick 错误，也许上传的文件不是图片? 原错误：%{e}"
+      carrierwave_processing_error: "处理失败"
+      carrierwave_integrity_error: "不是允许的文件类型"
+      carrierwave_download_error: "无法下载"
+      extension_allowlist_error: "您不能上传 %{extension} 文件，允许的文件类型为：%{allowed_types}"
+      extension_denylist_error: "您不能上传 %{extension} 文件，禁止的文件类型为：%{prohibited_types}"
+      content_type_allowlist_error: "您不能上传 %{content_type} 文件，允许的文件类型为：%{allowed_types}"
+      content_type_denylist_error: "您不能上传 %{content_type} 文件"
+      processing_error: "处理失败，请确保上传的文件是有效的图像文件。"
       min_size_error: "文件大小应大于 %{min_size}"
-      max_size_error: "文件的大小应小于 %{max_size}"
+      max_size_error: "文件大小应小于 %{max_size}"
+      min_width_error: "图片宽度应大于 %{min_width}px"
+      max_width_error: "图片宽度应小于 %{max_width}px"
+      min_height_error: "图片高度应大于 %{min_height}px"
+      max_height_error: "图片高度应小于 %{max_height}px"
