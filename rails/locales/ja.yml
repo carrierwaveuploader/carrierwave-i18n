@@ -11,3 +11,7 @@ ja:
       processing_error: "ファイルを処理できませんでした。画像を確認してください。"
       min_size_error: "を%{min_size}以上のサイズにしてください"
       max_size_error: "を%{max_size}以下のサイズにしてください"
+      min_width_error: "を%{min_width}px以上の幅にしてください"
+      max_width_error: "を%{max_width}px以下の幅にしてください"
+      min_height_error: "を%{min_height}px以上の高さにしてください"
+      max_height_error: "を%{max_height}px以下の高さにしてください"
