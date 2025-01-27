@@ -1,14 +1,14 @@
 zh-CN:
   errors:
     messages:
-      carrierwave_processing_error: "处理失败"
-      carrierwave_integrity_error: "不是允许的文件类型"
-      carrierwave_download_error: "无法下载"
+      carrierwave_processing_error: 处理失败
+      carrierwave_integrity_error: 不是允许的文件类型
+      carrierwave_download_error: 无法下载
       extension_allowlist_error: "您不能上传 %{extension} 文件，允许的文件类型为：%{allowed_types}"
       extension_denylist_error: "您不能上传 %{extension} 文件，禁止的文件类型为：%{prohibited_types}"
       content_type_allowlist_error: "您不能上传 %{content_type} 文件，允许的文件类型为：%{allowed_types}"
       content_type_denylist_error: "您不能上传 %{content_type} 文件"
-      processing_error: "处理失败，请确保上传的文件是有效的图像文件。"
+      processing_error: 处理失败，请确保上传的文件是有效的图像文件。
       min_size_error: "文件大小应大于 %{min_size}"
       max_size_error: "文件大小应小于 %{max_size}"
       min_width_error: "图片宽度应大于 %{min_width}px"

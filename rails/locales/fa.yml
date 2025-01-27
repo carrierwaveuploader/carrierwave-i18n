@@ -8,6 +8,6 @@ fa:
       extension_denylist_error: "شما مجاز به آپلود فایل با پسوند %{extension} نیستید، نوع‌های ممنوع: %{prohibited_types}"
       content_type_allowlist_error: "شما مجاز به آپلود فایل %{content_type} نیستید"
       content_type_denylist_error: "شما مجاز به آپلود فایل %{content_type} نیستید"
-      processing_error: "نتوانست دستکاری شود، شاید این یک تصویر نیست؟"
+      processing_error: نتوانست دستکاری شود، شاید این یک تصویر نیست؟
       min_size_error: "اندازه فایل باید بیشتر از %{min_size} باشد"
       max_size_error: "اندازه فایل باید کمتر از %{max_size} باشد"
