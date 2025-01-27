@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'loofah', '~>2.19.1'
+gem 'loofah', '~> 2.24.0'
 
 gemspec
