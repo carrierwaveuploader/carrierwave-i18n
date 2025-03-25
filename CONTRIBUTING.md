@@ -12,8 +12,7 @@ cd carrierwave-i18n
 bundle install
 
 # Run the test suite
-rspec
-
+bundle exec rake spec
 ```
 
 ## Contributing Code
