@@ -1,0 +1,37 @@
+require:
+  - rubocop-performance
+  - rubocop-rake
+  - rubocop-rspec
+
+AllCops:
+  Exclude:
+    - "bin/*"
+    - "tmp/**/*"
+    - "vendor/**/*"
+  NewCops: disable
+  TargetRubyVersion: 2.5
+
+Metrics/BlockLength:
+  Exclude:
+    - "spec/**/*"
+
+Naming/FileName:
+  Exclude:
+    - "gemfiles/*"
+    - "lib/carrierwave-i18n.rb"
+    - "spec/carrierwave-i18n_spec.rb"
+
+RSpec/ExampleLength:
+  Max: 10
+
+# Documentation is coming
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  EnforcedStyle: always
+  Exclude:
+    - "Gemfile*"
+    - "Rakefile"
+    - "*.gemspec"
+    - "spec/**/*"
