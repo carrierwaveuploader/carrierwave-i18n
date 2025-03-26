@@ -28,7 +28,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.5'
+          ruby-version: 'ruby-head'
           bundler-cache: true
       - name: Run check
         env:
