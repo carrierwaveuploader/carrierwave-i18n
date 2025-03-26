@@ -31,4 +31,6 @@ jobs:
           ruby-version: '2.5'
           bundler-cache: true
       - name: Run check
-        run: bundle exec rake rubocop --format github
+        env:
+          RUBOCOP_FORMAT: github
+        run: bundle exec rake rubocop
